@@ -15,7 +15,7 @@ let hour=0;
 startButton.addEventListener("click",function(){
   startButton.disabled=true;
   stopButton.disabled=false;
-  resetButton.disabled=false;
+  resetButton.disabled=true;
   timer=timer+hold;
     timer=setInterval(function(){
       msecond++;
